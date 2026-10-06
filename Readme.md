@@ -12,13 +12,13 @@
 1. **Скачайте** нужный файл образа (
 [.ova](https://drive.google.com/file/d/1-GlcYA9VxR30pspdTp4eIacJtkXesGJI/view?usp=sharing)
 или
-[.utm](https://drive.google.com/file/d/1zzB_LSOw-qvYLxFt6s6tIUomcfbEu3Mp/view?usp=sharing)).
+[.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing)).
 2. **Установите** гипервизор:
    - **VirtualBox** – с официального сайта (для Windows, Linux, macOS Intel).
    - **UTM** – с сайта или через `brew install --cask utm` (для macOS на Apple Silicon).
 3. **Импортируйте** образ:
    - **VirtualBox**: *Файл → Импорт конфигурации* → выберите [.ova](https://drive.google.com/file/d/1-GlcYA9VxR30pspdTp4eIacJtkXesGJI/view?usp=sharing) → настройте ОЗУ (минимум 4 ГБ, лучше 8) и число ядер CPU (2 и более) → *Импорт*.
-   - **UTM**: нажмите `+` → *Импорт* → выберите [.utm](https://drive.google.com/file/d/1zzB_LSOw-qvYLxFt6s6tIUomcfbEu3Mp/view?usp=sharing) → *Сохранить*.
+   - **UTM**: нажмите `+` → *Импорт* → выберите [.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing) → *Сохранить*.
 4. **Запустите** виртуальную машину кнопкой «Запустить» / «Play».
 
 ---
