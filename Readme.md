@@ -8,11 +8,10 @@
 ---
 
 ## Шаги для всех
-0. **Напишите заявку в service desk на установку гипервизора(UTM или VirtualBox)** 
-1. **Скачайте** нужный файл образа (
-[.ova](https://drive.google.com/file/d/1jl-Fa1bBpFanj8PXTlqYP9H6HE-iINkn/view?usp=sharing)
-или
-[.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing)).
+0. **Создайте заявку в service desk на установку гипервизора(UTM или VirtualBox)** и подождите, пока она не будет согласована. Инструкция по созданию заявки находится ниже.
+1. **Скачайте** нужный файл образа
+   - [.ova](https://drive.google.com/file/d/1jl-Fa1bBpFanj8PXTlqYP9H6HE-iINkn/view?usp=sharing) для Windows, Linux, macOS Intel
+   - [.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing)) для macOS на Apple Silicon
 2. **Установите** гипервизор:
    - **VirtualBox** – с официального сайта (для Windows, Linux, macOS Intel).
    - **UTM** – с сайта или через `brew install --cask utm` (для macOS на Apple Silicon).
@@ -22,6 +21,15 @@
 4. **Запустите** виртуальную машину кнопкой «Запустить» / «Play».
 
 ---
+## Создание заявки в NSD
+1. Войдите в NSD, нажмите кнопку добавления заявки
+2. **Услуга:** Обслуживание рабочего места пользователя (IT) -> Программное обеспечение
+3. **Тип заявки:** запрос на обслуживание
+4. **Категория работ:** Обслуживание ПО
+5. **Тема:** Установка Virtual Box/UTM и образа на неё для обучения на курсе
+6. **Источник дистрибутива ПО:** возьмите информацию из пунктов 1 и 2 раздела "Шаги для всех" в зависимости от вашей ОС
+7. **Обоснование:** для выполнения практических заданий в рамках обучения на курсе Ninja Dojo
+
 
 ## ⚠️ Частая ошибка VirtualBox: «Сетевые интерфейсы не найдены (wlo1)»
 
