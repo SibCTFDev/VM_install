@@ -80,7 +80,7 @@
    - **Подключить виртуальный кабель** – включено.
 6. Если настройки верные, но интернет не работает, попробуйте сгенерировать новый MAC-адрес с помощью кнопки, отмеченной цифрой **4**.
 7. Нажмите **ОК**, запустите виртуальную машину и проверьте доступ в интернет.
-<img src="https://github.com/crono533/VM_install/blob/fix/new_additional_advices/Pasted%20image%2020261007160119.png" width="600">
+<img src="https://github.com/SibCTFDev/VM_install/blob/fix/new_additional_advices/Pasted%20image%2020261007160119.png" width="600">
 
 #### 5. Firefox показывает ошибку "The proxy server is refusing connections"
 **Причина:** Firefox пытается подключиться через прокси-сервер, который недоступен или не запущен. Это может быть связано с настройками Firefox или расширения FoxyProxy.
@@ -109,7 +109,7 @@
 3. Отключите его через **Disconnect**, затем подключите снова.
 4. Дождитесь восстановления соединения.
 5. Если подключение не восстановилось, попробуйте перезапустить VM.
-<img src="https://github.com/crono533/VM_install/blob/fix/new_additional_advices/Pasted%20image%2020261007163204.png" width="500">
+<img src="https://github.com/SibCTFDev/VM_install/blob/fix/new_additional_advices/Pasted%20image%2020261007163204.png" width="500">
 
 ##### Шаг 3. Перезапустите VS Code
 1. Полностью закройте VS Code.
