@@ -11,13 +11,13 @@
 0. **Создайте заявку в service desk на установку гипервизора(UTM или VirtualBox)** и подождите, пока она не будет согласована. Инструкция по созданию заявки находится ниже.
 1. **Скачайте** нужный файл образа
    - [.ova](https://drive.google.com/file/d/1btag8nEhOrne-w02yGiKuNI57Uvi0a9R/view?usp=sharing) для Windows, Linux, macOS Intel
-   - [.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing) для macOS на Apple Silicon
+   - [.utm](https://drive.google.com/file/d/1iAmD_XnQLze_huNyJJTYEWFaRnMRXGdo/view?usp=sharing) для macOS на Apple Silicon
 2. **Установите** гипервизор:
    - **VirtualBox** – с официального сайта (для Windows, Linux, macOS Intel).
    - **UTM** – с сайта или через `brew install --cask utm` (для macOS на Apple Silicon).
 3. **Импортируйте** образ:
    - **VirtualBox**: *Файл → Импорт конфигурации* → выберите [.ova](https://drive.google.com/file/d/1jl-Fa1bBpFanj8PXTlqYP9H6HE-iINkn/view?usp=sharing) → настройте ОЗУ (минимум 4 ГБ, лучше 8) и число ядер CPU (2 и более) → *Импорт*.
-   - **UTM**: нажмите `+` → *Импорт* → выберите [.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing) → *Сохранить*.
+   - **UTM**: нажмите `+` → *Импорт* → выберите [.utm](https://drive.google.com/file/d/1iAmD_XnQLze_huNyJJTYEWFaRnMRXGdo/view?usp=sharing) → *Сохранить*.
 4. **Запустите** виртуальную машину кнопкой «Запустить» / «Play».
 5. Работать с виртуальной машиной лучше всего из внешней сети с подключением к корпоративному VPN (ma)
 
