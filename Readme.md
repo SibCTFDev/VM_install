@@ -19,6 +19,7 @@
    - **VirtualBox**: *Файл → Импорт конфигурации* → выберите [.ova](https://drive.google.com/file/d/1jl-Fa1bBpFanj8PXTlqYP9H6HE-iINkn/view?usp=sharing) → настройте ОЗУ (минимум 4 ГБ, лучше 8) и число ядер CPU (2 и более) → *Импорт*.
    - **UTM**: нажмите `+` → *Импорт* → выберите [.utm](https://drive.google.com/file/d/1bEoiuGXYXnuWYOVLTFIJ60911NqDvEA6/view?usp=sharing) → *Сохранить*.
 4. **Запустите** виртуальную машину кнопкой «Запустить» / «Play».
+5. Работать с виртуальной машиной лучше всего из внешней сети с подключением к корпоративному VPN (ma)
 
 ---
 ## Создание заявки в NSD
